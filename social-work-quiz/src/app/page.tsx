@@ -237,9 +237,22 @@ export default function Home() {
                <div className="mb-6">
                  <Trophy className="w-24 h-24 text-yellow-400 mx-auto mb-4 animate-bounce" />
                  <h2 className="text-3xl font-extrabold text-slate-800 mb-2">パーフェクト！</h2>
-                 <p className="text-2xl font-bold text-blue-600 mt-4 py-4 rounded-xl">
-                   かりんなら絶対合格できるよ！試験頑張って！
-                 </p>
+                 <div className="mt-6 py-6 bg-blue-50 rounded-xl border border-blue-100 px-4">
+                   <p className="text-2xl font-bold text-blue-600 mb-2 leading-relaxed">
+                     かりんなら絶対合格できるよ！<br/>試験頑張って！
+                   </p>
+                   <p className="text-lg text-slate-700 font-bold mb-4">
+                     試験おわったら一緒にhulu見ようね！
+                   </p>
+                   <a 
+                     href="https://giftee.com/r/D8YKnW3kBxZ8MZcjccnsdpgxkQU8cuUC" 
+                     target="_blank" 
+                     rel="noopener noreferrer" 
+                     className="text-blue-500 hover:text-blue-700 underline break-all text-sm block"
+                   >
+                     https://giftee.com/r/D8YKnW3kBxZ8MZcjccnsdpgxkQU8cuUC
+                   </a>
+                 </div>
                </div>
             ) : (
               <div className="mb-4">
